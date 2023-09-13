@@ -1,0 +1,46 @@
+.navigation{
+    background-color: black;
+    padding: 25px;
+    position: absolute;
+    margin: 25px;
+    left: 0;
+}
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover{
+    background-color: #359381;
+    color: #f9f9f9;
+    transition:
+     0.3s ease;
+}
+.navigation1 {
+    background-color: black;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.navigation1 a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navigation1 a:hover {
+    background-color: #359381;
+    color: #f9f9f9;
+    transition: 0.3s ease;
+}

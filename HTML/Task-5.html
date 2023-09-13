@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Task-5</title>
+    <style>
+        .form-group {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            margin-right: 10px;
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;">Registration Form</h3>
+    <form>
+        <table border="1" cellspacing="0" align="center" style="width: 600px;">
+            <tbody><tr>
+                <td class="r1"><label for="fn"><b>First Name</b></label></td>
+                <td><input type="text" wfd-id="id0"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="ln"><b>Last Name</b></label></td>
+                <td><input type="text" wfd-id="id1"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="email"><b>Email</b></label></td>
+                <td><input type="text" wfd-id="id2"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="pass"><b>Password</b></label></td>
+                <td><input type="password" wfd-id="id3"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="repass"><b>Re-enter Password</b></label></td>
+                <td><input type="password" wfd-id="id4"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="r1"><label for="gen"><b>Gender</b></label></td>
+                <td class="radio-option">
+                    <!-- Here if we give name value saame for both inputs so only one radio option will choose -->
+                    <input type="radio" name="gen" wfd-id="id5">
+                    <label for="gen"> Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="radio-option">
+                    <input type="radio" name="gen" wfd-id="id6">
+                    <label for="gen">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="age"><b>Age</b></label></td>
+                <td><input type="number" wfd-id="id7"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="p_no"><b>Phone Number</b></label></td>
+                <td><input type="text" wfd-id="id8"></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="r1"><label for="add"><b>Address</b></label></td>
+                <td rowspan="3"><input class="add" type="text" wfd-id="id9"></td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td class="r1"><label for="st"><b>State</b></label></td>
+                <td><input type="text" wfd-id="id10"></td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="con"><b>Country</b></label></td>
+                <td>
+                    <select name="con">
+                        <option value="choose">Choose your country</option>
+                        <option value="in">India</option>
+                        <option value="us">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="r1"><label for="lang"><b>Languages known</b></label></td>
+                <td>
+                    <input type="checkbox" wfd-id="id11"> English
+                    <input type="checkbox" wfd-id="id12"> Kannada
+                    <input type="checkbox" wfd-id="id13"> Hindi
+                    <input type="checkbox" wfd-id="id14"> Telugu
+                </td>
+            </tr>
+            <tr>
+                <td class="radio-option" colspan="2"><input type="checkbox" checked="" wfd-id="id15"> Hereby I declare all the given details are true</td>
+            </tr>
+            <tr>
+                <td class="redirect" colspan="2">Login to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website</td>
+            </tr>
+        </tbody></table>
+        <div style="text-align: center; padding: 15px;">
+            <input type="submit" value="Register" name="Register" wfd-id="id16">
+        </div>
+    </form>
+
+</body>
+</html>
